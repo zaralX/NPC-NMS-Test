@@ -1,0 +1,17 @@
+name: NPCtest2
+version: '${project.version}'
+main: ru.zaralx.npctest2.NPCtest2
+authors: [ zaralX ]
+api-version: '1.19'
+commands:
+  test:
+    description: "TEST COMMAND"
+    usage: /test
+    aliases: [t, te, tes]
+    permission: op
+    permission-message: You do not have permission
+  npc:
+    description: "NpcBase COMMAND"
+    usage: /npc
+    permission: op
+    permission-message: You do not have permission
